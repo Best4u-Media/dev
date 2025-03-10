@@ -6,7 +6,11 @@ export default defineConfig({
   description: "A documentation for development at Best4u",
   lastUpdated: true,
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    siteTitle: false,
+    logo: {
+      light: '/best4u-light.svg',
+      dark: '/best4u-dark.svg',
+    },
     nav: [
       { text: 'Home', link: '/' },
     ],
@@ -20,5 +24,7 @@ export default defineConfig({
         ]
       }
     ],
+
+    externalLinkIcon: true,
   }
 })

@@ -65,7 +65,7 @@ In the Blade template, you can use `{{ $variable }}` to output a variable, and y
 </html>
 ```
 
-For more information on how to use Blade, you can refer to the Blade [documentation](https://laravel.com/docs/10.x/blade).
+For more information on how to use Blade, you can refer to the Blade [documentation](https://laravel.com/docs/master/blade).
 
 > [!TIP]
 > Not everything from laravel blade is supported in this version. But most of the functionality should work.
