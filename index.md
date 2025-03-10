@@ -4,22 +4,22 @@ layout: home
 
 hero:
   name: "Best4u Docs"
-  text: "A documentation for development at Best4u"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  text: "Work hard, Play harder"
+  tagline: For the greatest developers in the world!
+  # actions:
+    # - theme: brand
+    #   text: Best4u Child
+    #   link: /best4u-child
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Best4u Child (theme)
+    details: Find all the information about our child theme.
+    link: /best4u-child
+  - title: Best4u Extended (plugin)
+    details: More information soon...
+  - title: Best4u Development
+    details: Information about development at Best4u
 ---
-
