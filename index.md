@@ -22,4 +22,5 @@ features:
     details: More information soon...
   - title: Best4u Development
     details: Information about development at Best4u
+    link: /best4u-development
 ---
