@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { generateSidebar, withSidebar } from 'vitepress-sidebar';
+import { withSidebar } from 'vitepress-sidebar';
 
 const vitePressOptions = {
   title: "Best4u Docs",
