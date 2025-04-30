@@ -4,7 +4,7 @@ WordPress 5.5 introduced a new constant `WP_ENVIRONMENT_TYPE` that allows you to
 We use this constant to differ between the different environment types. This makes it easier to see whether you’re working on the test or production environment. The environment type is also shown in the WordPress admin toolbar.
 
 ## Change the environment type
-You can change the enviroment type in the `wp-config.php` file. You need to define this using `WP_ENVIRONMENT_TYPE` constant in this file.
+You can change the environment type in the `wp-config.php` file. You need to define this using `WP_ENVIRONMENT_TYPE` constant in this file.
 Here are the steps to do this:
 1. Open the `wp-config.php` file in your WordPress root directory.
 2. Add the follwing line of card above the line that says `/* That's all, stop editing! Happy publishing. */`
