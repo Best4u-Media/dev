@@ -1,0 +1,14 @@
+:root {
+  --vp-home-hero-name-background: linear-gradient(153deg, rgba(255, 132, 0, 1) 0%, rgba(135, 63, 217, 1) 100%);
+  --vp-home-hero-name-color: transparent;
+  --vp-c-brand-1: #FF8400;
+  --vp-c-brand-2: #873FD9;
+  --vp-code-color: oklch(0.705 0.015 286.067);
+}
+
+.group:has([role='button']) .VPSidebarItem.level-0 .items {
+  padding-left: 16px !important;
+  border-left: 1px solid var(--vp-c-divider);
+  border-radius: 2px;
+  transition: background-color 0.25s;
+}

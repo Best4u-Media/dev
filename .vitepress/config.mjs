@@ -1,24 +1,31 @@
 import { defineConfig } from 'vitepress'
+import { withSidebar } from 'vitepress-sidebar';
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
+const vitePressOptions = {
   title: "Best4u Docs",
   description: "A documentation for development at Best4u",
+  lastUpdated: true,
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    siteTitle: false,
+    externalLinkIcon: true,
+
+    logo: {
+      light: '/best4u-light.svg',
+      dark: '/best4u-dark.svg',
+    },
+
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
     ]
   }
-})
+};
+
+const vitePressSidebarOptions = {
+  documentRootPath: '/',
+  collapsed: false,
+  collapseDepth: 2,
+  capitalizeFirst: true,
+  useTitleFromFileHeading: true,
+};
+
+export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
