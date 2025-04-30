@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { withSidebar } from 'vitepress-sidebar';
+import { generateSidebar, withSidebar } from 'vitepress-sidebar';
 
 const vitePressOptions = {
   title: "Best4u Docs",
@@ -20,12 +20,29 @@ const vitePressOptions = {
   }
 };
 
-const vitePressSidebarOptions = {
-  documentRootPath: '/',
-  collapsed: false,
-  collapseDepth: 2,
-  capitalizeFirst: true,
-  useTitleFromFileHeading: true,
-};
+const vitePressSidebarOptions = [
+  {
+    rootGroupText: 'Best4u Child',
+    documentRootPath: '/',
+    scanStartPath: 'best4u-child',
+    resolvePath: '/best4u-child/',
+    useTitleFromFrontmatter: true,
+    useTitleFromFileHeading: true,
+    capitalizeFirst: true,
+    collapsed: true,
+    collapseDepth: 1,
+  },
+  {
+    rootGroupText: 'Best4u Development',
+    documentRootPath: '/',
+    scanStartPath: 'best4u-development',
+    resolvePath: '/best4u-development/',
+    useTitleFromFrontmatter: true,
+    useTitleFromFileHeading: true,
+    capitalizeFirst: true,
+    collapsed: true,
+    collapseDepth: 1,
+  }
+];
 
 export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
