@@ -7,7 +7,7 @@ We use this constant to differ between the different environment types. This mak
 You can change the environment type in the `wp-config.php` file. You need to define this using `WP_ENVIRONMENT_TYPE` constant in this file.
 Here are the steps to do this:
 1. Open the `wp-config.php` file in your WordPress root directory.
-2. Add the follwing line of card above the line that says `/* That's all, stop editing! Happy publishing. */`
+2. Add the following line of code above the line that says `/* That's all, stop editing! Happy publishing. */`
 ```
 define( 'WP_ENVIRONMENT_TYPE', 'environment_type' );
 ```
