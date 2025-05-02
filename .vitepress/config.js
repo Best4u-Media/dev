@@ -24,7 +24,7 @@ const vitePressOptions = {
 
 const vitePressSidebarOptions = [
   {
-    rootGroupText: 'Best4u Child',
+    rootGroupText: 'Child theme',
     documentRootPath: '/',
     scanStartPath: 'best4u-child',
     resolvePath: '/best4u-child/',
@@ -37,13 +37,14 @@ const vitePressSidebarOptions = [
     ]
   },
   {
-    rootGroupText: 'Best4u Development',
+    rootGroupText: 'Development',
     documentRootPath: '/',
     scanStartPath: 'best4u-development',
     resolvePath: '/best4u-development/',
     useTitleFromFrontmatter: true,
+    hyphenToSpace: true,
     collapsed: true,
-    collapseDepth: 1,
+    collapseDepth: 2,
   }
 ];
 
