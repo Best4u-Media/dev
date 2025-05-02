@@ -1,0 +1,5 @@
+---
+title: Assets
+---
+
+# {{ $frontmatter.title }}

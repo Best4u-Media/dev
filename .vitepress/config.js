@@ -16,7 +16,7 @@ const vitePressOptions = {
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Best4u child', link: '/best4u-child/' },
+      { text: 'Child theme', link: '/best4u-child/' },
       { text: 'Development', link: '/best4u-development/' },
     ]
   }
@@ -29,10 +29,12 @@ const vitePressSidebarOptions = [
     scanStartPath: 'best4u-child',
     resolvePath: '/best4u-child/',
     useTitleFromFrontmatter: true,
-    useTitleFromFileHeading: true,
-    capitalizeFirst: true,
+    hyphenToSpace: true,
     collapsed: true,
     collapseDepth: 1,
+    manualSortFileNameByPriority: [
+      'getting-started.md',
+    ]
   },
   {
     rootGroupText: 'Best4u Development',
@@ -40,8 +42,6 @@ const vitePressSidebarOptions = [
     scanStartPath: 'best4u-development',
     resolvePath: '/best4u-development/',
     useTitleFromFrontmatter: true,
-    useTitleFromFileHeading: true,
-    capitalizeFirst: true,
     collapsed: true,
     collapseDepth: 1,
   }
