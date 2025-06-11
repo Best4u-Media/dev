@@ -10,8 +10,8 @@ const vitePressOptions = {
     externalLinkIcon: true,
 
     logo: {
-      light: 'best4u-light.svg',
-      dark: 'best4u-dark.svg',
+      light: '/best4u-light.svg',
+      dark: '/best4u-dark.svg',
     },
 
     nav: [
