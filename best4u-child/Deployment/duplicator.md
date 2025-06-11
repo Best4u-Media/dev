@@ -1,0 +1,5 @@
+---
+title: Duplicator
+---
+
+# {{ $frontmatter.title }}

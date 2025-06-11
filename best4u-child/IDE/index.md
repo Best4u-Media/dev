@@ -1,0 +1,5 @@
+---
+title: IDE
+---
+
+# {{ $frontmatter.title }}

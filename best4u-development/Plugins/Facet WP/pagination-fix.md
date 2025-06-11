@@ -1,4 +1,8 @@
-# FacetWP Pagination Fix
+---
+title: Pagination Fix
+---
+
+# {{ $frontmatter.title }}
 
 FacetWP sometimes conflicts with Blocksy, causing the `posts_per_page` from the customizer to not be used. This snippet will fix that:
 

@@ -1,0 +1,5 @@
+---
+title: Snippets
+---
+
+# {{ $frontmatter.title }}

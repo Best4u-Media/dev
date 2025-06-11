@@ -1,8 +1,9 @@
-::: warning
-We are currently in the process of rewriting all information. Therefore, this information may not be complete.
-:::
+---
+title: Best4u Child
+---
 
-# Best4u Child
+# {{ $frontmatter.title }}
+
 This is the default theme we use for developing new websites with Blocksy. It makes use of Vite to bundle/compile the assets.
 
 Vite also provides an easy-to-use development server which also makes use of HMR. The theme will automatically load the assets from the development server when you're developing on a local environment and the server is running.

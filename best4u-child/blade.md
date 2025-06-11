@@ -1,4 +1,9 @@
-# Blade
+---
+title: Blade
+---
+
+# {{ $frontmatter.title }}
+
 Blade is a powerful, simple, and elegant templating engine provided with Laravel, but it can also be used separately in any PHP project. In the context of the theme, Blade is used to separate the application logic from the presentation logic, making your code cleaner, more maintainable, and easier to understand.
 
 **By using Blade, you can:**
@@ -7,12 +12,14 @@ Blade is a powerful, simple, and elegant templating engine provided with Laravel
 - Reuse code snippets across different views with Blade's layout system.
 
 ## When to use Blade
+
 You should use Blade whenever you need to generate HTML or other text-based formats. It's especially useful when:
 - You have complex PHP logic that you want to keep separate from your HTML.
 - You want to reuse certain parts of your HTML across multiple pages (like headers, footers, etc.).
 - You want to keep your code DRY (Don't Repeat Yourself).
 
 ## How to use Blade
+
 In our child theme, the Blade templating engine is already initialized in the `App` class in `app/App.php` file. To use it, you need to call the static `render` method of the `Blade` class, which is defined in the `app/Blade.php` file.
 
 Here's a basic example
@@ -25,6 +32,7 @@ echo Blade::render('path.to.view', ['key' => 'value']);
 In this example, `'path.to.view'` is the path to the Blade template file in the `views` directory, and `['key' => 'value']` is an associative array of data that you want to pass to the view.
 
 ## Examples
+
 Here's an example of a Blade template file
 ```HTML
 <!-- views/example.blade.php-->
