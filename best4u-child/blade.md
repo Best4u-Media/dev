@@ -52,8 +52,8 @@ Create a file called `welcome.blade.php` in the `views` folder:
 <!-- views/welcome.blade.php -->
 <html>
     <body>
-        <h1>Welcome, {{ $username }}!</h1>
-        <p>You have {{ $messageCount }} new messages.</p>
+        <h1>Welcome, `{{ $username }}`!</h1>
+        <p>You have `{{ $messageCount }}` new messages.</p>
     </body>
 </html>
 ```
@@ -90,7 +90,7 @@ You can also add basic if/else logic to your Blade templates:
 <html>
     <body>
         @if ($messageCount > 0)
-            <p>You have {{ $messageCount }} new messages!</p>
+            <p>You have `{{ $messageCount }}` new messages!</p>
         @else
             <p>No new messages.</p>
         @endif
